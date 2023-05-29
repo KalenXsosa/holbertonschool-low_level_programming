@@ -7,7 +7,11 @@
 int main(void)
 
 {
+int m;
 char power;
+
+for (power = 'a'; m <= 'z'; m++)
+putchar(m);
 
 for (power = 'a'; power <= 'z'; power++)
 putchar(power);
