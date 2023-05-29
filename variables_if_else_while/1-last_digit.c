@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /**
- *main print last digit
+ *main - print last digit
  *Return: 0
  *
  */
