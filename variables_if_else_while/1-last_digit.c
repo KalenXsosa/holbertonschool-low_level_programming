@@ -20,15 +20,15 @@ lastdigit = n % 10;
 printf("Last digit of %d is ", n);
 if (n > 5)
 {
-printf("%d Last digit and is greater then 5\n", lastdigit);
+printf("%d and is greater then 5\n", lastdigit);
 }
 else if (n == 0)
 {
-printf("%d Last digit and is zero\n", lastdigit);
+printf("%d and is zero\n", lastdigit);
 }
 else
 {
-printf("%d Last digit and is less then 6\n", lastdigit);
+printf("%d and is less then 6\n", lastdigit);
 }
 return (0);
 }
