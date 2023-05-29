@@ -28,7 +28,7 @@ printf("%d and is zero\n", lastdigit);
 }
 else
 {
-printf("%d and is less then 6 and not 0\n", lastdigit);
+printf("%d and is less than 6 and not 0\n", lastdigit);
 }
 return (0);
 }
