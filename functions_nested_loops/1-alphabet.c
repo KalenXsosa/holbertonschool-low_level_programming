@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+* main - print alphabet
+*
+* Return: Always 0.
+*/
 void print_alphabet(void);
 {
 char k;
@@ -16,4 +16,5 @@ _putchar(k);
 _putchar('\n');
 
 return (0);
+
 }
