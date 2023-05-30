@@ -15,7 +15,7 @@ char power;
 for (m = '0'; m <= '9'; m++)
 putchar(m);
 
-for (power = 'a'; power <= 'z'; power++)
+for (power = 'a'; power <= 'f'; power++)
 putchar(power);
 putchar('\n');
 
