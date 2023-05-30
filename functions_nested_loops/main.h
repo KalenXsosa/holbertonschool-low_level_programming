@@ -1,14 +1,16 @@
-#ifdef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
+#include <stdio.h>
+int main(void);
 
 /*
  * File: main.h
  * Auth: Kalen Dontrey Haywood
  * Desc: Header file containing declarations for all functions
- *       used in the functions_nested_loops directory.
+ *	used in the functions_nested_loops directory.
  */
 
-int _putchar(char c);
+int _putchar(int k);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
