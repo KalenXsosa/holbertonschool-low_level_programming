@@ -1,8 +1,10 @@
 #include "main.h"
 #include <stdio.h>
+#include <unistd.h>
 
 /**
- * void print_number - print number
+ * @print_number - print number
+ *
  * Return: Always 0.
  */
 void print_numbers(void)
