@@ -3,7 +3,7 @@
 #include <unistd.h>
 
 /**
- * @print_numbers - print number
+ *print_numbers - print number
  *
  * Return: Always 0.
  */
