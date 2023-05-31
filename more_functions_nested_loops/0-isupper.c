@@ -5,7 +5,7 @@
  * @c: c checks upper letter
  * Return: Always 0.
  */
-int _isupper(int c);
+int _isupper(int c)
 
 {
 
