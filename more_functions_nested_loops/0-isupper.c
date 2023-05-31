@@ -13,7 +13,7 @@ for (c = 'A'; c <= 'Z'; c++)
 
 c = _islower(c);
 _putchar(c);
-	}
+}
 return (0);
 
 }
