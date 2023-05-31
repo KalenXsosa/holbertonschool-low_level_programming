@@ -10,8 +10,8 @@ int _isupper(int c)
 {
 
 for (c = 'A'; c <= 'Z'; c++)
-}
-k = _islower(c);
+
+c = _islower(c);
 _putchar(c);
 	}
 return (0);
