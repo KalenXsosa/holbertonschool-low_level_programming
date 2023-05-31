@@ -1,17 +1,22 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - checks uppercase
+ * _isupper - checks uppercase
  * @c: c checks upper letter
- * Return: Always 0.
+ *
+ * Return: uppercase returns 1 and lowercase returns 0
  */
 int _isupper(int c)
 
 {
-
-for (c = 'A'; c <= 'Z'; c++)
-
-c = _islower(c);
-_putchar(c);
+if
+(c >= 'A'; c <= 'Z')
+{
+return (1);
+}
+else
+{
+return (0);
+}
 
 }
