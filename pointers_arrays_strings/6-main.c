@@ -5,19 +5,11 @@
  *
  * Return: Always 0.
  */
-void puts2(char *str)
+int main(void)
 {
-	int k;
-	int q = 0;
+    char *str;
 
-	while (str[q] != '\0')
-	{
-	q++;
-	}
-
-	for (k = 0 k < q; k += 2)
-	{
-	_putchar(str[k]);
-	}
-	_putchar('\n');
+    str = "0123456789";
+    puts2(str);
+    return (0);
 }
