@@ -18,6 +18,6 @@ void puts_half(char *str)
 }
 	else
 {
-	printf("%s\n", str + n);
+	printf("%s\n", str + n + 1);
 }
 }
