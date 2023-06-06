@@ -14,10 +14,10 @@ void puts_half(char *str)
 	if (len % 2 == 0)
 
 {
-	printf("%s\n", str + n);
+	printf("%s\n", str + n + 1);
 }
 	else
 {
-	printf("%s\n", str + n + 1);
+	printf("%s\n", str + n);
 }
 }
