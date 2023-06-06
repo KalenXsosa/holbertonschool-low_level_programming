@@ -13,7 +13,7 @@ int main(void)
 	{
 		if (x % 15 == 0)
 		{
-			printf("Fizz");
+			printf("FizzBuzz");
 		}
 		else if (x % 5 == 0)
 		{
@@ -21,7 +21,7 @@ int main(void)
 		}
 		else if (x % 3 == 0)
 		{
-		printf("FizzBuzz");
+		printf("Fizz");
 		}
 		else
 		{
