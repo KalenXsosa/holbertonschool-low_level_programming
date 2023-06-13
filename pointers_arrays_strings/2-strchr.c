@@ -2,27 +2,21 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
+ * _strchr - check the code
+ * @s: ko
+ * @c: kk
  * Return: Always 0.
  */
-char *_strchr(char *s, char vari)
+char *_strchr(char *s, char c)
 {
-	unsigned int b,c, confirm, place;
-	
-	confirm = 0;
-	
-	for (b = 0; s[b] != '\0'; b++)
+	int a;
+
+	for (a = 0; s[a] >= '\0'; a++)
 	{
-	place = 0;
-	
-	for (c = 0; vari[c] != '\0'; c++)
-	{
-	if (vari[c] == s[b])
-	{
-		confirm++;
-		place = 1;
+	if (s[a] == c)
+		return (s + a);
 	}
-	}
+	return (NULL);
 }
-}
+
+
