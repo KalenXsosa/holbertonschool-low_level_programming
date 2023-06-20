@@ -2,7 +2,7 @@
 
 /**
  * _print_rev_recursion - check the code
- *  
+ * 
  *
  * Return: Always 0.
  */
