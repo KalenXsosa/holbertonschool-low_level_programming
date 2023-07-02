@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
 * main - prototype
@@ -10,18 +11,19 @@
 */
 int main(int argc, char *argv[])
 {
-	int n1 = 0, n2 = 0;
+	int num1 = 0, num2 = 0;
 
 	if (argc == 3)
 	{
-	n1 = _atoi(argv[1]);
-	n2 = _atoi(argv[2]);
-	printf("%d\n", n1 * n2);
+		num1 = atoi(argv[1]);
+		num2 = atoi(argv[2]);
+		printf("%d\n", num1 * num2);
 	}
 	else
 	{
-	printf("Error\n");
-	return (1);
+		printf("Error\n");
+		return (1);
 	}
+
 	return (0);
 }
